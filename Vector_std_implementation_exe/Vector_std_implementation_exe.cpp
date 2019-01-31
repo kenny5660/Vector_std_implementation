@@ -3,10 +3,12 @@
 
 #include "pch.h"
 #include <iostream>
+#include <vector>
 #include "../Vector_std_implementation/vector.h"
 int main()
 {
-  Vector<int> vec;
+  Vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  Vector<int> vec2(vec);
   vec.push_back(20);
   vec.push_back(21);
   vec.push_back(22);
